@@ -51,8 +51,7 @@ function displayProperty(property) {
         <div class="card-buttons">
             <button class="contact-btn" onclick="contactOwner('${property.contact}')">Contact Owner</button>
             <button class="delete-btn" onclick="deleteProperty(this, '${property.title}')">Delete Property</button>
-        </div>
-    `;
+        </div> `;
  
     propertyList.appendChild(propertyCard);
 }
