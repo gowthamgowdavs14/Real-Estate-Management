@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Real Estate Management</title>
-
+<link rel="stylesheet" href="style.css">
 </head>
 <body><header>
 <h1>GFG</h1>
@@ -24,10 +24,23 @@
       <input type="text" id="description">
     </div>
   </div>
+  <div class="input-row">
+    <div class="input-group">
+      <label for="imageURL">image url</label>
+      <input type="text" id="imageURL">
+    </div>
+    <div class="input-group">
+      <label for="contact">contact</label>
+      <input type="text" id="contact">
+    </div>
+  </div>
  
+        <button class="add-btn" onclick="addProperty()">Add Property</button>
+</section>
  
-       
+    <h3>Property List</h3>
+<div id="property-list" class="property-container"></div>
  
-   
+    <script src="script.js"></script>
 </body>
 </html>
